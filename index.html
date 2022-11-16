@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript cypress</title>
+        <script src="https://cdn.jsdelivr.net/gh/O48WRX/cypresstest/teszt.js"></script>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Ez egy teszt HTML weboldal<br>
+            - Kardos Zsolt O48WRX</h1>
+        <h2>
+            Form Inputok
+        </h2>
+        <form>
+            Name : <input type="text" id="name" value=""><br>
+            password : <input type="text" id="password" value=""><br>
+            Age : <input type="number" id="age" value=""><br>
+            <button type="button" id="submitform1" onclick="PrintFromScript()">Submit</button>
+        </form>
+        <br>
+        
+        <p>
+          Name: <label id="nameReturn"></label><br>
+          Password: <label id="passReturn"></label><br>
+          Age: <label id="ageReturn"></label><br>
+        </p>
+
+        <br>
+        <h1>
+            Javascript teszt
+        </h1>
+        <form>
+            <input type="number" id="num1"> + <input type="number" id="num2"> = <label id="additionResult"></label><br>
+            <input type="number" id="num3"> - <input type="number" id="num4"> = <label id="subtractionResult"></label><br>
+            <button type="button" id="submitcalcform" onclick="assessCalcs()">Submit</button>
+        </form>
+    </body>
+</html>
